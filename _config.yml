@@ -1,0 +1,21 @@
+# Jekyll-Konfiguration für GitHub Pages
+title: "minig – Ein Teil von mir"
+description: "Die minimalistische digitale Visitenkarte. Privat, lokal, hochwertig."
+baseurl: "/minig-web"
+url: "https://alernbecher.github.io"
+lang: de
+
+# Build settings
+markdown: kramdown
+
+# Exclude files from Jekyll processing
+exclude:
+  - README.md
+  - LICENSE
+  - CLAUDE.md
+  - .gitignore
+  - .git
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
